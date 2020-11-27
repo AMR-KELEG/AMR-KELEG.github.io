@@ -39,10 +39,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+github_username: AMR-KELEG
+twitter_username: Amrkeleg
+linkedin_username: amr-keleg
+scholar_userid: 4YkMPp0AAAAJ
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -52,7 +52,7 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Kindly contact me through my personal email
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -61,7 +61,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: ak-blog  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Welcome to my blog
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -126,7 +126,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Keleg
 
   style: apa
   locale: en
@@ -152,7 +152,7 @@ enable_google_analytics:  false
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          false
+enable_darkmode:          true
 show_social_icons:        false
 
 # -----------------------------------------------------------------------------
