@@ -57,8 +57,9 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [Arabizi - Taha](https://project-rbz.kmi.open.ac.uk/)
 - [Other gazeteers](https://github.com/linuxscout/arabicnlptoolslist#gazetteers)
 - [ARZ and dialectal resources (mainly for segmentation and POS)](http://alt.qcri.org/resources/da_resources/)
-
 - [Arabic Morphological analysis](https://sourceforge.net/projects/aracomlex/)
+- [Egyptian corpora](https://linguistics.byu.edu/thesisdata/CALMcorpusDownload.html)
+- [CNN and BBC data](https://sourceforge.net/projects/ar-text-mining/files/)
 
 ### Arabic related workshops
 - [WANLP - part of coling](https://sites.google.com/view/wanlp-2020)
