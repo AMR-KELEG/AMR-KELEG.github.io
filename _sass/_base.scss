@@ -15,6 +15,14 @@ a, table.table a {
   }
 }
 
+table.table-borders {
+  border-collapse: collapse;
+  border-style: hidden;
+  tr {
+    border: 1px solid #5e5e5e;
+  }
+}
+
 // Math
 
 .equation {
