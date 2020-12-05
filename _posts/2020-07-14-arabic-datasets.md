@@ -78,3 +78,4 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [Arabic Morphological analysis](https://sourceforge.net/projects/aracomlex/)
 - [CNN and BBC data](https://sourceforge.net/projects/ar-text-mining/files/)
 - [Tunisian dialect resources repo](https://github.com/chiraz/Definitive-Guide-of-Tunisian-Dialect-NLP-Resources)
+- [Random Arabic datasets](https://discuss.huggingface.co/t/open-to-the-community-one-week-team-effort-to-reach-v2-0-of-hf-datasets-library/2176/10)
