@@ -54,7 +54,7 @@ keybase_username: # your keybase user name
 contact_note: >
   Kindly contact me through my personal email
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: G-TTZJTTPT6P
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -148,7 +148,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
