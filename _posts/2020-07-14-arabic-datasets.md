@@ -79,3 +79,4 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [CNN and BBC data](https://sourceforge.net/projects/ar-text-mining/files/)
 - [Tunisian dialect resources repo](https://github.com/chiraz/Definitive-Guide-of-Tunisian-Dialect-NLP-Resources)
 - [Random Arabic datasets](https://discuss.huggingface.co/t/open-to-the-community-one-week-team-effort-to-reach-v2-0-of-hf-datasets-library/2176/10)
+- [NYU-AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/resources.html)
