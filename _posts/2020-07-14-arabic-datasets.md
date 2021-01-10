@@ -19,6 +19,7 @@ In this post, I will try to keep a list of any publically available resources th
 | [Arabic sentiment analysis](https://archive.ics.uci.edu/ml/datasets/Twitter+Data+set+for+Arabic+Sentiment+Analysis)| A two label dataset of Arabic tweets (2000 positive and 2000 negative) | NA | 2013 |
 | [LABR](https://github.com/mohamedadaly/LABR)| Large Scale Arabic Book Reviews Dataset contains over 63,000 book reviews in Arabic collected from goodreads.| NA | 2013 |
 | [ANERCorp](https://github.com/EmnamoR/Arabic-named-entity-recognition) | A relatively old Arabic NER (Person, Location, Organisation, Miscellaneous) corpus of 150K tokens (11% are entities) | NA | 2007 |
+| [AQMAR](https://www.cs.cmu.edu/~ark/ArabicNER/), [Topcode challenge](https://www.topcoder.com/challenges/f3cf483e-a95c-4a7e-83e8-6bdd83174d38) | Wikipedia-based NER dataset | ARA | 2012 |
 |---|---|---|---|
 {:.table-borders}
 
@@ -80,3 +81,4 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [Tunisian dialect resources repo](https://github.com/chiraz/Definitive-Guide-of-Tunisian-Dialect-NLP-Resources)
 - [Random Arabic datasets](https://discuss.huggingface.co/t/open-to-the-community-one-week-team-effort-to-reach-v2-0-of-hf-datasets-library/2176/10)
 - [NYU-AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/resources.html)
+- [ELXIR](https://github.com/otakar-smrz/elixir-fm/blob/master/Python/ElixirFM/README.ipynb): A program able to inflect words?
