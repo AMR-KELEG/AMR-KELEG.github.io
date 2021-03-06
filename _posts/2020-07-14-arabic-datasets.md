@@ -20,7 +20,6 @@ In this post, I will try to keep a list of any publically available resources th
 | [LABR](https://github.com/mohamedadaly/LABR)| Large Scale Arabic Book Reviews Dataset contains over 63,000 book reviews in Arabic collected from goodreads.| NA | 2013 |
 | [ANERCorp](https://github.com/EmnamoR/Arabic-named-entity-recognition) | A relatively old Arabic NER (Person, Location, Organisation, Miscellaneous) corpus of 150K tokens (11% are entities) | NA | 2007 |
 | [AQMAR](https://www.cs.cmu.edu/~ark/ArabicNER/), [Topcode challenge](https://www.topcoder.com/challenges/f3cf483e-a95c-4a7e-83e8-6bdd83174d38) | Wikipedia-based NER dataset | ARA | 2012 |
-|---|---|---|---|
 {:.table-borders}
 
 <hr>
@@ -28,8 +27,7 @@ In this post, I will try to keep a list of any publically available resources th
 ### Raw corpora
 | Corpus | Description | Languages | Published|
 |:-----:|:-----:|:-:|:----:|
-|[Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus)| Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words|ARA|2016|
-|---|---|---|---|
+| [Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus) | Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words|ARA|2016|
 {:.table-borders}
 
 ### Tools
