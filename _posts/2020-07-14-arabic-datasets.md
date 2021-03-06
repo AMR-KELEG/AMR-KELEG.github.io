@@ -25,6 +25,13 @@ In this post, I will try to keep a list of any publically available resources th
 
 <hr>
 
+### Raw corpora
+| Corpus | Description | Languages | Published|
+|:-----:|:-----:|:-:|:----:|
+|[Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus)| Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words|ARA|2016|
+|---|---|---|---|
+{:.table-borders}
+
 ### Tools
 
 | Tool name | Description | Programming language | Languages | Published |
@@ -82,3 +89,4 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [Random Arabic datasets](https://discuss.huggingface.co/t/open-to-the-community-one-week-team-effort-to-reach-v2-0-of-hf-datasets-library/2176/10)
 - [NYU-AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/resources.html)
 - [ELXIR](https://github.com/otakar-smrz/elixir-fm/blob/master/Python/ElixirFM/README.ipynb): A program able to inflect words?
+- [ANETAC](https://github.com/MohamedHadjAmeur/ANETAC): English names with their Arabic transliterations
