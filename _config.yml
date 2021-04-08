@@ -84,6 +84,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  faq:
+    defaults:
+      layout: post
+    output: true
+    permalink: /faq/:path/
 
 news_limit: 5
 
