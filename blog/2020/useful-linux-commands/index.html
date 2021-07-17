@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Amr  Keleg | blank</title>
+<title>Amr  Keleg | List of tips and tricks for using linux commands</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/useful-linux-commands/">
 
 <!-- Theming-->
 
@@ -144,56 +144,61 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>ak-blog</h1>
-    <h2>Welcome to my blog</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">List of tips and tricks for using linux commands</h1>
+    <p class="post-meta">March 16, 2020</p>
+  </header>
 
-  <ul class="post-list">
-    
+  <article class="post-content">
+    <h3 id="cut"><code class="language-plaintext highlighter-rouge">cut</code></h3>
+<ul>
+  <li>This command is used to cut each line in a file into a set of fields/bytes and specify ceratin values of them to be selected.</li>
+  <li>
+    <p>It uses one-indexing when specifying the characters/fields to select.</p>
+  </li>
+  <li>Using the <code class="language-plaintext highlighter-rouge">-b</code> argument
+    <ul>
       <li>
-        <h3><a class="post-title" href="/blog/2021/h-index-101/">h-index 101</a></h3>
-        <p class="post-meta">April 16, 2021</p>
-        <p>A simple way to think of how h-index is computed</p>
+        <p><code class="language-plaintext highlighter-rouge">cat FILE | cut -b 3,4</code><br />
+Prints the third and fourth characters in each line of FILE. <br />
+Note: Don’t leave a space after the comma for the list of characters/indecies.</p>
       </li>
-    
       <li>
-        <h3><a class="post-title" href="/blog/2020/interesting-pip-packages/">My list of the best pip packages</a></h3>
-        <p class="post-meta">December 18, 2020</p>
-        <p>Useful Python packages that I use/have used</p>
+        <p><code class="language-plaintext highlighter-rouge">cat FILE | cut -b 3-7</code><br />
+Prints the characters in range 3 to 7 in each line of FILE. <br />
+Note: Don’t leave a space after the dash for the range of characters/indecies. <br />
+Dropping the end index <code class="language-plaintext highlighter-rouge">START-</code> means to select all the characters from START till the end of the line.</p>
       </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/arabic-datasets/">Arabic NLP resources</a></h3>
-        <p class="post-meta">July 14, 2020</p>
-        <p>A non-exhaustive list of linguistic Arabic resources online</p>
-      </li>
-    
-  </ul>
+    </ul>
+  </li>
+  <li>Using the <code class="language-plaintext highlighter-rouge">-f</code> argument
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cat FILE | cut -f 2</code><br />
+If a delimiter isn’t specified using <code class="language-plaintext highlighter-rouge">-d</code> then the command uses tabs to split the fields.
+<code class="language-plaintext highlighter-rouge">-f 2</code> selects the second field in the line (The value after the first tab in the line and before the second one)</li>
+      <li><code class="language-plaintext highlighter-rouge">cat FILE | cut -d " " -f 2</code><br />
+Splits each line using spaces ` ` and selects the second value after splitting</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="lspci--vvv"><code class="language-plaintext highlighter-rouge">lspci -vvv</code>:</h3>
+<ul>
+  <li>Think of it as if you say <strong>list pci</strong> which shows the different devices connected to the motherboard</li>
+</ul>
+
+<h3 id="lscpu"><code class="language-plaintext highlighter-rouge">lscpu</code>:</h3>
+<ul>
+  <li>Similar idea as <code class="language-plaintext highlighter-rouge">lspci</code> but for the CPU.</li>
+</ul>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 
