@@ -13,27 +13,32 @@ In this post, I will try to keep a list of any publically available resources th
 |:-----:|:-----:|:-:|:----:|
 | [LinCE](https://ritual.uh.edu/lince/home) | A NER dataset (stats?) and Language Identification corpus (each token in the sentence is annotated with the language MSA or EGA)| MSA & ARZ | 2020 |
 | [MADAR](https://camel.abudhabi.nyu.edu/madar-shared-task-2019/)| A set of setences manually translated by professional translators from different cities into different dialects from Travel (Subtask 1) and Twitter (Substask 2) data | 26 different dialects from different Arabian cities including MSA| 2019 |
-| [CALM](http://linguistics.byu.edu/thesisdata/CALMcorpusDownload.html) ||ARZ|2019|
+| [CALM](http://linguistics.byu.edu/thesisdata/CALMcorpusDownload.html) |"CALM contains transcripts from 65 movies (comprising 655,858 word tokens), 88 scripted television programs (396,734 word tokens), and internet texts (1,092,442 word tokens). Some of the content has been annotated, and annotation is ongoing."| ARZ | 2019 |
 | [HARD](https://github.com/elnagara/HARD-Arabic-Dataset), [paper](https://link.springer.com/chapter/10.1007/978-3-319-67056-0_3)|93700 hotel reviews in Arabic language collected from Booking.com|MSA & Dialects|2018|
 | [ASTD](https://github.com/mahmoudnabil/ASTD)| Arabic Sentiment Tweets Dataset contains over 10k Arabic sentiment tweets classified into four classes subjective positive, subjective negative, subjective mixed, and objective | NA | 2015 |
 | [Arabic sentiment analysis](https://archive.ics.uci.edu/ml/datasets/Twitter+Data+set+for+Arabic+Sentiment+Analysis)| A two label dataset of Arabic tweets (2000 positive and 2000 negative) | NA | 2013 |
 | [LABR](https://github.com/mohamedadaly/LABR)| Large Scale Arabic Book Reviews Dataset contains over 63,000 book reviews in Arabic collected from goodreads.| NA | 2013 |
-| [ANERCorp](https://github.com/EmnamoR/Arabic-named-entity-recognition) | A relatively old Arabic NER (Person, Location, Organisation, Miscellaneous) corpus of 150K tokens (11% are entities) | NA | 2007 |
 | [AQMAR](https://www.cs.cmu.edu/~ark/ArabicNER/), [Topcode challenge](https://www.topcoder.com/challenges/f3cf483e-a95c-4a7e-83e8-6bdd83174d38) | Wikipedia-based NER dataset | ARA | 2012 |
+| [ANERCorp](https://github.com/EmnamoR/Arabic-named-entity-recognition) [ANERCorp - CAMeL Lab Train/Test Splits](https://camel.abudhabi.nyu.edu/anercorp/)| A relatively old Arabic NER (Person, Location, Organisation, Miscellaneous) corpus of 150K tokens (11% are entities) | NA | 2007 |
+| [Hate speech datasets](https://hatespeechdata.com/) | A set of different hate speech datasets in different languages including Arabic | NA | NA |
 {:.table-borders}
 
 <hr>
 
 ### Raw corpora
-| Corpus | Description | Languages | Published|
-|:-----:|:-----:|:-:|:----:|
-| [Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus) | Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words|ARA|2016|
+
+| Corpus | Description | Languages | Published |
+|:-----:|:-----:|:---:|:----:|
+| [Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus) | Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words| ARA | 2016 |
+|---|---|---|---|
 {:.table-borders}
+
+<hr>
 
 ### Tools
 
 | Tool name | Description | Programming language | Languages | Published |
-|:-:|:-:|:-:|:-:|:-:|
+|:---:|:---:|:---:|:---:|:---:|
 | [stanza](https://stanfordnlp.github.io/stanza/) | TBC (A tool for NER and POS? for multiple languages including Arabic), uses AQMAR and PADT | python (pytorch) | MSA & EGA | 2020 (Christopher D. Manning.) |
 |---|---|---|---|---|
 {:.table-borders}
@@ -76,7 +81,6 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [Speech Recognition](https://groups.csail.mit.edu/sls/downloads/adi17/) 
 - [Speech Recognition](http://en.arabicspeechcorpus.com/)
 - [Q&A from ask.fm](http://xminers.club/2017/07/22/arabic-qa-dataset/)
-- [Hate speech](http://hatespeechdata.com/)
 - [NER](https://fsalotaibi.kau.edu.sa/Pages-Arabic-NE-Corpora.aspx)
 - [Arabizi - Taha](https://project-rbz.kmi.open.ac.uk/)
 - [Other gazeteers](https://github.com/linuxscout/arabicnlptoolslist#gazetteers)
