@@ -11,6 +11,7 @@ In this post, I will try to keep a list of any publically available resources th
 
 | Dataset | Description | Languages | Published|
 |:-----:|:-----:|:-:|:----:|
+| [ALUE](https://www.alue.org/home)| Arabic Language Understanding Evaluation is a set of shared tasks that are to be used for benchmarking models | MSA & Dialects | 2020|
 | [LinCE](https://ritual.uh.edu/lince/home) | A NER dataset (stats?) and Language Identification corpus (each token in the sentence is annotated with the language MSA or EGA)| MSA & ARZ | 2020 |
 | [MADAR](https://camel.abudhabi.nyu.edu/madar-shared-task-2019/)| A set of setences manually translated by professional translators from different cities into different dialects from Travel (Subtask 1) and Twitter (Substask 2) data | 26 different dialects from different Arabian cities including MSA| 2019 |
 | [CALM](http://linguistics.byu.edu/thesisdata/CALMcorpusDownload.html) |"CALM contains transcripts from 65 movies (comprising 655,858 word tokens), 88 scripted television programs (396,734 word tokens), and internet texts (1,092,442 word tokens). Some of the content has been annotated, and annotation is ongoing."| ARZ | 2019 |
@@ -29,7 +30,9 @@ In this post, I will try to keep a list of any publically available resources th
 
 | Corpus | Description | Languages | Published |
 |:-----:|:-----:|:---:|:----:|
+| [OSCAR](https://oscar-corpus.com/#corpus) | OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture | MSA & ARZ | 2020 |
 | [Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus) | Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words| ARA | 2016 |
+| [ArabicWeb16](https://sites.google.com/view/arabicweb16/home) | A public web crawl of 150,211,934 Arabic webpages | MSA and Dialects | 2016 |
 |---|---|---|---|
 {:.table-borders}
 
