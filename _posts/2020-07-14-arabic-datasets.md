@@ -95,3 +95,4 @@ and dataset http://www.cs.cmu.edu/~ark/ArabicNER/
 - [NYU-AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/resources.html)
 - [ELXIR](https://github.com/otakar-smrz/elixir-fm/blob/master/Python/ElixirFM/README.ipynb): A program able to inflect words?
 - [ANETAC](https://github.com/MohamedHadjAmeur/ANETAC): English names with their Arabic transliterations
+- [MISC Arabic sources - Big Science](https://bigscience.huggingface.co/en/#!index.md)
