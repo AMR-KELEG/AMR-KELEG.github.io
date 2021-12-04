@@ -16,6 +16,6 @@ nav: true
   - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5BxPXo_bZ_yuAGzMEH7V52Y9)
 - Introduction to programming (2019/2021)
 - 4th CSE (senior students) laboratory (2019/2021)
-  - Recorded videos: [[2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bw1TFu3hlXjPO5qUJNMuAHD)
+  - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bw1TFu3hlXjPO5qUJNMuAHD)
 
 You can find most of the slides used in my tutorials through <a href="https://github.com/AMR-KELEG/teaching-material"> https://github.com/AMR-KELEG/teaching-material</a>
