@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="http://www.inf.ed.ac.uk/people/students/Amr_Mohamed_Hosny_Anwar_Keleg.html">Affiliation</a>
+description: <a href="http://www.inf.ed.ac.uk/people/students/Amr_Keleg.html">Affiliation</a>
 
 profile:
   align: right
