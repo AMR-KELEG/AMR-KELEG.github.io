@@ -60,13 +60,13 @@ google_analytics: G-TTZJTTPT6P
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog posts  # your blog must have a name for it to show up in the nav bar
-blog_description: WIP
+blog_name: Random Blog posts and thoughts  # your blog must have a name for it to show up in the nav bar
+blog_description: \O/
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
