@@ -12,17 +12,46 @@
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.findings-acl.389",
+    html = "https://aclanthology.org/2023.findings-acl.389",
     pages = "6245--6266",
     abstract = "A few benchmarking datasets have been released to evaluate the factual knowledge of pretrained language models. These benchmarks (e.g., LAMA, and ParaRel) are mainly developed in English and later are translated to form new multilingual versions (e.g., mLAMA, and mParaRel). Results on these multilingual benchmarks suggest that using English prompts to recall the facts from multilingual models usually yields significantly better and more consistent performance than using non-English prompts. Our analysis shows that mLAMA is biased toward facts from Western countries, which might affect the fairness of probing models. We propose a new framework for curating factual triples from Wikidata that are culturally diverse. A new benchmark DLAMA-v1 is built of factual triples from three pairs of contrasting cultures having a total of 78,259 triples from 20 relation predicates. The three pairs comprise facts representing the (Arab and Western), (Asian and Western), and (South American and Western) countries respectively. Having a more balanced benchmark (DLAMA-v1) supports that mBERT performs better on Western facts than non-Western ones, while monolingual Arabic, English, and Korean models tend to perform better on their culturally proximate facts. Moreover, both monolingual and multilingual models tend to make a prediction that is culturally or geographically relevant to the correct label, even if the prediction is wrong.",
 }
 
-@inproceedings{keleg2022smash,
-  selected={true},
-  title={SMASH at Qur’an QA 2022: Creating Better Faithful Data Splits for Low-resourced Question Answering Scenarios},
-  author={Keleg, Amr and Magdy, Walid},
-  booktitle={Proceedings of the 5th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT5) at the 13th Language Resources and Evaluation Conference (LREC 2022)},
-  year={2022}
+
+@inproceedings{keleg-magdy-2022-smash,
+    selected={true},
+    title = "{SMASH} at Qur{'}an {QA} 2022: Creating Better Faithful Data 
+Splits for Low-resourced Question Answering Scenarios",
+    author = "Keleg, Amr  and
+      Magdy, Walid",
+    booktitle = "Proceedings of the 5th Workshop on Open-Source Arabic 
+Corpora and Processing Tools with Shared Tasks on Qur'an QA and 
+Fine-Grained Hate Speech Detection",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.osact-1.17",
+    html = "https://aclanthology.org/2022.osact-1.17",
+    pages = "136--145",
+    abstract = "The Qur{'}an QA 2022 shared task aims at assessing the 
+possibility of building systems that can extract answers to religious 
+questions given relevant passages from the Holy Qur{'}an. This paper 
+describes SMASH{'}s system that was used to participate in this shared 
+task. Our experiments reveal a data leakage issue among the different 
+splits of the dataset. This leakage problem hinders the reliability of 
+using the models{'} performance on the development dataset as a proxy for 
+the ability of the models to generalize to new unseen samples. After 
+creating better faithful splits from the original dataset, the basic 
+strategy of fine-tuning a language model pretrained on classical Arabic 
+text yielded the best performance on the new evaluation split. The results 
+achieved by the model suggests that the small scale dataset is not enough 
+to fine-tune large transformer-based language models in a way that 
+generalizes well. Conversely, we believe that further attention could be 
+paid to the type of questions that are being used to train the models 
+given the sensitivity of the data.",
 }
+
 
 @inproceedings{keleg-etal-2022-automatically,
     selected={false},
