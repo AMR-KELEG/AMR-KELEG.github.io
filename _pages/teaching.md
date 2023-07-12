@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials of the undergraduate courses that I have taught
+description: Courses in which I was part of the teaching team
 nav: true
 ---
 
-## Courses that I have taught as a TA
+## Faculty of Engineering, Ain Shams University (Teaching Assistant)
 - Biomedical engineering (2018)
   - Recorded videos: [2018](https://www.youtube.com/playlist?list=PLYq-G4vgX5BwpKNDCpwlELJi0phWhYjyI)
 - Software engineering (2018)
@@ -19,3 +19,13 @@ nav: true
   - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bw1TFu3hlXjPO5qUJNMuAHD)
 
 You can find most of the slides used in my tutorials through <a href="https://github.com/AMR-KELEG/teaching-material"> https://github.com/AMR-KELEG/teaching-material</a>
+
+### University of Edinburgh
+- Text Technologies for Data Science
+  - Final Exam Marker (2022)
+  - Demonstrator (2023)
+  - Marker (2023)
+
+- Accelerated NLP
+  - Marker (2023)
+  - Final Exam Marker (2023)
