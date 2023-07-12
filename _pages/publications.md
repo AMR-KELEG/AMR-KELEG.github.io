@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: My list of publications in peer-reviewed conferences.
-years: [2022, 2020]
+years: [2023, 2022, 2020]
 nav: true
 ---
 
