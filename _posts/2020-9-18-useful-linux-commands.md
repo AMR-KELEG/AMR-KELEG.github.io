@@ -31,3 +31,6 @@ description: A set of linux commands that I find useful
 
 ### `lscpu`:
    - Similar idea as `lspci` but for the CPU.
+
+### `head`
+   - `head -n -1 FILENAME` truncates the last line from the file.
