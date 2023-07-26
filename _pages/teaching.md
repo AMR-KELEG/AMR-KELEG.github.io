@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
-description: Courses in which I was part of the teaching team
+title: Teaching/Services
+description: Teaching/Reviewing/Volutneering activities I participated in.
 nav: true
 ---
 
-## Faculty of Engineering, Ain Shams University (Teaching Assistant)
+## Teaching 
+### Faculty of Engineering, Ain Shams University (Teaching Assistant)
 - Biomedical engineering (2018)
   - Recorded videos: [2018](https://www.youtube.com/playlist?list=PLYq-G4vgX5BwpKNDCpwlELJi0phWhYjyI)
 - Software engineering (2018)
@@ -29,3 +30,15 @@ You can find most of the slides used in my tutorials through <a href="https://gi
 - Accelerated NLP
   - Marker (2023)
   - Final Exam Marker (2023)
+
+## Services
+### Reviewing
+- EACL 2023: SRW
+- ACL 2023: Multilinguality track
+
+### Volutneering
+- (2022 - present) [ACE IT](https://aceit.org.uk/): One-to-one coach.
+
+### Organization
+- (2021 - present) CDTalks: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
+- (2019 - 2021) FE-ASU CPC: Co-organizing a programming competition for undergarduate students
