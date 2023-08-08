@@ -1,7 +1,7 @@
 ---
 layout: post
 title: List of tips and tricks for using linux commands
-date: 2020-03-16
+date: 2020-09-18
 description: A set of linux commands that I find useful
 ---
 
@@ -27,10 +27,13 @@ description: A set of linux commands that I find useful
   Splits each line using spaces ` ` and selects the second value after splitting
   
 ### `lspci -vvv`:
-   - Think of it as if you say **list pci** which shows the different devices connected to the motherboard
+  - Think of it as if you say **list pci** which shows the different devices connected to the motherboard
 
 ### `lscpu`:
-   - Similar idea as `lspci` but for the CPU.
+  - Similar idea as `lspci` but for the CPU.
 
 ### `head`
-   - `head -n -1 FILENAME` truncates the last line from the file.
+  - `head -n -1 FILENAME` truncates the last line from the file.
+
+### `tail`
+  - `tail -n +2 FILENAME` truncates the first line from the file.`
