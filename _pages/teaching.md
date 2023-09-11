@@ -6,7 +6,27 @@ description: Teaching/Reviewing/Volutneering activities I participated in.
 nav: true
 ---
 
-## Teaching 
+## Services
+
+### Mentoring
+- (Summer 2023) Masters students - Rae Liu, Hongyu Yu
+
+### Reviewing
+- EMNLP 2023: Theme Track - Large Language Models and the Future of NLP, Computational Social Science and Cultural Analytics, industry track
+- ACL 2023: Multilinguality track
+- EACL 2023: SRW
+
+
+### Volunteering
+
+- (2022 - present) [ACE IT](https://aceit.org.uk/): One-to-one coach.
+
+### Organization
+- (2021 - present) CDTalks: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
+- (2019 - 2021) FE-ASU CPC: Co-organizing a programming competition for undergarduate students
+
+## Teaching
+
 ### Faculty of Engineering, Ain Shams University (Teaching Assistant)
 - Biomedical engineering (2018)
   - Recorded videos: [2018](https://www.youtube.com/playlist?list=PLYq-G4vgX5BwpKNDCpwlELJi0phWhYjyI)
@@ -30,15 +50,3 @@ You can find most of the slides used in my tutorials through <a href="https://gi
 - Accelerated NLP
   - Marker (2023)
   - Final Exam Marker (2023)
-
-## Services
-### Reviewing
-- EACL 2023: SRW
-- ACL 2023: Multilinguality track
-
-### Volutneering
-- (2022 - present) [ACE IT](https://aceit.org.uk/): One-to-one coach.
-
-### Organization
-- (2021 - present) CDTalks: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
-- (2019 - 2021) FE-ASU CPC: Co-organizing a programming competition for undergarduate students
