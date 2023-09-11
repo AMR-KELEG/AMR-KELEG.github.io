@@ -16,5 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Amr Keleg (/ʕamr/ /kɯˈɫɯtʃ/). I am currently pursuing a PhD in nlp degree from the University of Edinburgh under the supervison of Walid Magdy and Sharon Goldwater, doing research in the field of natural language processing (NLP) focusing on Arabic and its variant dialects.
-I come from Egypt and have completed my MSc and BSc degrees in computer engineering from Faculty of Engineering, Ain Shams University, Cairo, Egypt.
+My name is Amr Keleg عمرو قلج (/ʕamr/ /kɯˈɫɯtʃ/). I am a PhD student (CDT in NLP) at the University of Edinburgh, working under the supervison of [Walid Magdy](https://homepages.inf.ed.ac.uk/wmagdy/) and [Sharon Goldwater](https://homepages.inf.ed.ac.uk/sgwater/).
+I am studying the differences between the Arabic dialects, and the mutual intelligiblity of them.
+I come from Egypt where I completed my undergraduate and masters degrees, and worked as a teaching assistant at Faculty of Engineering, Ain Shams University.
