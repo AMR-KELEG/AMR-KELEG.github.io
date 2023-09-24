@@ -19,7 +19,8 @@ The solution I found to type Arabic text in English documents is to use the `bab
 
 * Then, to type Arabic text, you need to use a `\AR` scope as follows <br> `This is an example of Arabic text \AR{مثال بالعربية} within English text!`
 
-<img src="assets/img/arabic_latex.png" alt="compiled text!">
+* And voilà!<br>
+<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/arabic_latex.png" alt="compiled text!">
 
 <hr/>
 
