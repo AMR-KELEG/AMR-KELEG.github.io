@@ -28,5 +28,16 @@ v = np.array([[1, 2, 3]])
 print(v.shape) # (1, 3)
 ```
 
+Things start to get tedious once we start seeing something like:
+```python
+import numpy as np
 
-TO BE CONTINUED!
+arr = np.array(
+    [[[[1], [2]], [[3], [4]], [[5], [6]]], [[[7], [8]], [[9], [10]], [[11], [12]]]]
+)
+```
+
+It's easy to confuse yourself looking at such multi-dimensional array. Knowing the shape of the underlying numpy array is cruicial for knowing how other operations like broadcasting, and indexing will work.
+The way I found is to start from the deepest level lists (i.e.: [1] or [2] or ...). The length of such lists is 1, and thus the shape of the numpy array is (????, 1).
+The next step is to look at the next level list (i.e.: [ [1], [2] ] or [ [3], [4] ] or ...). Ignore the values in the inner lists and just count the number of lists inside the outer list. For this example, we have two inner lists which makes the shape of the numpy array (????, 2, 1).
+
