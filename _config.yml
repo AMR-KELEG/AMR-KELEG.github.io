@@ -84,11 +84,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  ideas:
-    defaults:
-      layout: post
-    output: true
-    permalink: /ideas/:path/
   faq:
     defaults:
       layout: post
