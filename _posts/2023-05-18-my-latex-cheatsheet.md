@@ -20,4 +20,4 @@ description: A digital backup for latex packages/ commands that I found useful s
 \end{document}
 ```
 - For typing IPA characters, use a package called `tipa`
-
+- This [webpage](https://jblevins.org/log/greek) has a list of greek symbols that is quite handy!
