@@ -2,7 +2,7 @@
 layout: post
 title: List of tips and tricks for using linux commands
 date: 2020-09-18
-description: A set of linux commands that I find useful
+description: A set of linux commands that I find useful (Last updated Dec 2023!)
 ---
 
 ### `cut`
@@ -36,4 +36,8 @@ description: A set of linux commands that I find useful
   - `head -n -1 FILENAME` truncates the last line from the file.
 
 ### `tail`
-  - `tail -n +2 FILENAME` truncates the first line from the file.`
+  - `tail -n +2 FILENAME` truncates the first line from the file.
+
+### `df`
+  - `df -h` shows the usage of the different hard drive partitions
+  - `df -sh DIR_NAME` shows the total size (summary, thus the `-s`) of a specific directory `DIR_NAME`
