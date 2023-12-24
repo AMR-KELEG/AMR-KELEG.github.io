@@ -33,6 +33,7 @@ In this post, I will try to keep a list of any publically available resources th
 | [OSCAR](https://oscar-corpus.com/#corpus) | OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture | MSA & ARZ | 2020 |
 | [Abu El-Khair Corpus](http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus) | Arabic text corpus, that includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there are about three million unique words| ARA | 2016 |
 | [ArabicWeb16](https://sites.google.com/view/arabicweb16/home) | A public web crawl of 150,211,934 Arabic webpages | MSA and Dialects | 2016 |
+| [Shamela](https://www.kentoseth.com/posts/2023/dec/17/the-arabic-diacriticized-corpus/) | Epub files parsed into text | CA? | - |
 |---|---|---|---|
 {:.table-borders}
 
