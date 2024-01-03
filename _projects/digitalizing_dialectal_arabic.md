@@ -2,7 +2,7 @@
 layout: page
 title: Digitalization of Dialectal Arabic documents
 description: an effort to increase the representation of Digitalized Arabic Corpora 
-importance: 2
+importance: 1
 layout: post
 date: 2024-01-01
 ---
@@ -11,7 +11,9 @@ Arabic is the sixth most spoken language in the world, with more than 420 millio
 
 With the continuous rise of Large Language Models (LLMs), such digital machine-readable Arabic content is of great importance. These models rely on such data to understand the language, and build a view of the real world. The fact that the culture, beliefs, ideas, and opinions of Arabic-speakers are not well-represented, which might be a graver problem than the under-representation of Arabic content online.
 
-To this end, using Optical Character Recognition (OCR) might help. As simple as this sounds, the Arabic NLP community might still be deterred from using OCR. As a current PhD student focusing on Arabic, I myself do not know much about the quality of the output of OCR models for Arabic content. A recent paper showed that OCR models might struggle with the less common calligraphic scripts of Arabic [1]. In this blog post, I dream of mobilizing the interest of the Arabic NLP community to use, evaluate, and improve the OCR systems to enrich the Arabic content online.
+To this end, using Optical Character Recognition (OCR) might help. As simple as this sounds, the Arabic NLP community might still be deterred from using OCR. As a current PhD student focusing on Arabic, I myself do not know much about the quality of the output of OCR models for Arabic content. A recent paper showed that OCR models might struggle with the less common calligraphic scripts of Arabic [1].
+
+In this blog post, I dream of mobilizing the interest of the Arabic NLP community to use, evaluate, and improve the OCR systems to enrich the Arabic content online. Assessing the performance of the models on dialectal documents is an understudied research question that is vital for the research community.
 
 ##### Case Study: Parallel Tunisian Constitution Corpus (PTCC)
 Official and legal documents in Arab countries, such as the constitution, are primarily issued in Arabic, and can sometimes be available in other languages such as: English and French. It is extremely rare to find these documents written in a variant of Dialectal Arabic.

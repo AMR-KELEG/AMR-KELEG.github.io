@@ -2,7 +2,7 @@
 layout: page
 title: My Viz. Portfolio
 description: a set of visualizations I have designed/made
-importance: 1
+importance: 2
 layout: post
 date: 2023-12-25
 ---
