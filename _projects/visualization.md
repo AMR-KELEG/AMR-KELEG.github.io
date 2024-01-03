@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Portfolio of Visualizations
+title: My Viz. Portfolio
 description: a set of visualizations I have designed/made
 importance: 1
 layout: post

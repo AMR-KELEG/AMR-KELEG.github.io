@@ -7,7 +7,13 @@ layout: post
 date: 2024-01-01
 ---
 
-### Case Study: Parallel Tunisian Constitution Corpus (PTCC)
+Arabic is the sixth most spoken language in the world, with more than 420 million speakers. However, the digital representation of the language is clearly lagging and disproportional to its real-world usage and presence.
+
+With the continuous rise of Large Language Models (LLMs), such digital machine-readable Arabic content is of great importance. These models rely on such data to understand the language, and build a view of the real world. The fact that the culture, beliefs, ideas, and opinions of Arabic-speakers are not well-represented, which might be a graver problem than the under-representation of Arabic content online.
+
+To this end, using Optical Character Recognition (OCR) might help. As simple as this sounds, the Arabic NLP community might still be deterred from using OCR. As a current PhD student focusing on Arabic, I myself do not know much about the quality of the output of OCR models for Arabic content. A recent paper showed that OCR models might struggle with the less common calligraphic scripts of Arabic [1]. In this blog post, I dream of mobilizing the interest of the Arabic NLP community to use, evaluate, and improve the OCR systems to enrich the Arabic content online.
+
+##### Case Study: Parallel Tunisian Constitution Corpus (PTCC)
 Official and legal documents in Arab countries, such as the constitution, are primarily issued in Arabic, and can sometimes be available in other languages such as: English and French. It is extremely rare to find these documents written in a variant of Dialectal Arabic.
 
 On reading the [TunBERT: Pretrained Contextualized Text Representation for Tunisian Dialect](https://arxiv.org/abs/2111.13138) paper, I found that the 2014 Tunisian Constitution was translated in Tunisian Arabic, as an attempt to make it more accessible to the Tunisians.
@@ -38,4 +44,8 @@ I managed to find two versions of the constitution as pdf files written in [MSA]
 . 
 ```
 
-Another option is using Optical Character Recognition (OCR) to transform images of text into machine-readable text. [Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR library. The library has a [python interface](https://pypi.org/project/pytesseract/) and supports [Arabic](https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata). I used **PyTesseract** as per the [following instructions](https://github.com/AMR-KELEG/Digitalizing-Arabic-Documents), followed by some ad-hoc script for aligning the articles extracted from the two pdf files. The aligned sentences form **Parallel Tunisian Constitution Corpus (PTCC)** which can be accessed through: [https://huggingface.co/datasets/AMR-KELEG/PTCC](https://huggingface.co/datasets/AMR-KELEG/PTCC)
+Another option is using Optical Character Recognition (OCR) to transform images of text into machine-readable text. [Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR library. The library has a [python interface](https://pypi.org/project/pytesseract/) and supports [Arabic](https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata). I used **PyTesseract** as per the [following instructions](https://github.com/AMR-KELEG/Digitalizing-Arabic-Documents), followed by some ad-hoc script for aligning the articles extracted from the two pdf files. The aligned sentences form **Parallel Tunisian Constitution Corpus (PTCC)** which can be accessed through: [https://huggingface.co/datasets/AMR-KELEG/PTCC](https://huggingface.co/datasets/AMR-KELEG/PTCC).
+
+<hr/>
+
+[1] [HICMA: The Handwriting Identification for Calligraphy and Manuscripts in Arabic Dataset](https://aclanthology.org/2023.arabicnlp-1.3/) (Ismail et al., ArabicNLP-WS 2023)
