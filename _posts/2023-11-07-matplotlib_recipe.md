@@ -84,6 +84,24 @@ TODO!
 TODO!
 ```
 
+## Generating fig from multiple files
+
+```
+# Requirements:
+# pip install pdf2image gif
+
+import gif
+from pdf2image import convert_from_path
+
+frames = []
+for step in range(1, 11):
+    # load pdf files
+    frame = convert_from_path(f'file_{step}.pdf')[0]
+    frames.append(frame)
+
+gif.save(frames, "test.gif", duration=1000)
+```
+
 ## Some remarks about matplotlib
 
 * `plt.gca()` returns the current active axis, which is useful for executing axes' commands.
