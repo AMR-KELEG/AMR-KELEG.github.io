@@ -66,10 +66,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
-
-# Comments
-disqus_shortname:  # put your disqus shortname
+  enabled: true
 
 # -----------------------------------------------------------------------------
 # Collections
