@@ -13,7 +13,8 @@ nav: true
 
 
 **Reviewing**
-- <u>ARR Feb 2024</u>: `Multilinguality and Linguistic Diversity`
+- <u>[ArabicNLP 2024](https://arabicnlp2024.sigarab.org)</u>
+- <u>ARR Apr,Feb 2024</u>: `Multilinguality and Linguistic Diversity`
 - <u>[6th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT 6)](https://osact-lrec.github.io/#committees)</u>
 - <u>[EACL 2024 (SRW)](https://sites.google.com/view/eacl2024srw/committees)</u>
 - <u>EMNLP 2023</u>: `Theme Track - Large Language Models and the Future of NLP`, `Computational Social Science and Cultural Analytics`, `Industry track`
