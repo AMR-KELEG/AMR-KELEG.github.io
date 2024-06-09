@@ -13,21 +13,22 @@ nav: true
 
 
 **Reviewing**
-- <u>[ArabicNLP 2024](https://arabicnlp2024.sigarab.org)</u>
+- [ACLing 2024](https://acling.org/program-committee/)
+- [ArabicNLP 2024](https://arabicnlp2024.sigarab.org)
 - <u>ARR Apr,Feb 2024</u>: `Multilinguality and Linguistic Diversity`
-- <u>[6th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT 6)](https://osact-lrec.github.io/#committees)</u>
-- <u>[EACL 2024 (SRW)](https://sites.google.com/view/eacl2024srw/committees)</u>
+- [6th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT 6)](https://osact-lrec.github.io/#committees)
+- [EACL 2024 (SRW)](https://sites.google.com/view/eacl2024srw/committees)
 - <u>EMNLP 2023</u>: `Theme Track - Large Language Models and the Future of NLP`, `Computational Social Science and Cultural Analytics`, `Industry track`
-- <u>[ArabicNLP 2023](https://arabicnlp2023.sigarab.org/program-committee)</u>
+- [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/program-committee)
 - <u>ACL 2023</u>: `Multilinguality track`
-- <u>[EACL 2023 (SRW)](https://sites.google.com/view/eacl2023srw/commitees)</u>
+- [EACL 2023 (SRW)](https://sites.google.com/view/eacl2023srw/commitees)
 
 **Organization**
 - <u>(2021 - present) CDTalks</u>: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
 - <u>(2019 - 2021) FE-ASU CPC</u>: Co-organizing a programming competition for undergarduate students
 
 **Volunteering Services**
-- <u>[ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/)</u>: Publicity Chair
+- [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/): Publicity Chair
 
 ## Teaching
 **Faculty of Engineering, Ain Shams University - Teaching Assistant - (Courses Taught):**
