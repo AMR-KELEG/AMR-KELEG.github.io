@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Digitalization of Dialectal Arabic documents
+title: Digitalizing Arabic Books
 description: an effort to increase the representation of Digitalized Arabic Corpora 
 importance: 1
 layout: post
+img: assets/img/Arabic_script_evolution.png
 date: 2024-01-01
 ---
 
