@@ -6,11 +6,17 @@ description: Teaching/Reviewing/Volutneering activities I participated in.
 nav: true
 ---
 
-## Services
-**Mentoring**
+## Mentoring
 - <u>ACL 2024 (SRW)</u>
 - <u>(Summer 2023) MSc co-supervision</u> - Rae Liu, Hongyu Yu
 
+## Services
+**Volunteering Services**
+- [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/): Publicity Chair
+
+**Organization**
+- <u>(2021 - present) CDTalks</u>: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
+- <u>(2019 - 2021) FE-ASU CPC</u>: Co-organizing a programming competition for undergarduate students
 
 **Reviewing**
 - [ACLing 2024](https://acling.org/program-committee/)
@@ -23,28 +29,10 @@ nav: true
 - <u>ACL 2023</u>: `Multilinguality track`
 - [EACL 2023 (SRW)](https://sites.google.com/view/eacl2023srw/commitees)
 
-**Organization**
-- <u>(2021 - present) CDTalks</u>: Co-organizing internal seminars for [CDT in NLP](https://web.inf.ed.ac.uk/cdt/natural-language-processing) students.
-- <u>(2019 - 2021) FE-ASU CPC</u>: Co-organizing a programming competition for undergarduate students
-
-**Volunteering Services**
-- [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/): Publicity Chair
+## Volunteering
+- <u>(2022 - present)</u> [ACE IT](https://aceit.org.uk/): One-to-one in-person coach, assisting learners (over 50 years) with their smart devices.
 
 ## Teaching
-**Faculty of Engineering, Ain Shams University - Teaching Assistant - (Courses Taught):**
-- </>Biomedical engineering (2018)</u>
-  - Recorded videos: [2018](https://www.youtube.com/playlist?list=PLYq-G4vgX5BwpKNDCpwlELJi0phWhYjyI)
-- <u>Software engineering (2018)</u>
-- <u>Data structures and algorithms (2019), (2020), (2021)</u>
-  - Recorded videos: [2020](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bxv-nmJ63TMlceEgchOOWCJ), [2021](https://www.youtube.com/playlist?list=PLSAVCAIEVqa8yHjRC1XgU2EhSLHB41A1E)
-- <u>Logic Design (2020), (2021)</u>
-  - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5BxPXo_bZ_yuAGzMEH7V52Y9)
-- <u>Introduction to programming (2019), (2021)</u>
-- <u>4th CSE (senior students) laboratory (2019), (2021)</u>
-  - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bw1TFu3hlXjPO5qUJNMuAHD)
-
-You can find most of the slides used in my tutorials through <a href="https://github.com/AMR-KELEG/teaching-material"> https://github.com/AMR-KELEG/teaching-material</a>
-
 **University of Edinburgh (Courses Taught):**
 - <u>Doing Research in NLP</u>
   - Marker `(2024)`
@@ -58,6 +46,16 @@ You can find most of the slides used in my tutorials through <a href="https://gi
   - Marker `(2023)`
   - Final Exam Marker `(2023)`
 
+**Faculty of Engineering, Ain Shams University - Teaching Assistant - (Courses Taught):**
+- <u>Data structures and algorithms (2019), (2020), (2021)</u>
+  - Recorded videos: [2020](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bxv-nmJ63TMlceEgchOOWCJ), [2021](https://www.youtube.com/playlist?list=PLSAVCAIEVqa8yHjRC1XgU2EhSLHB41A1E)
+- <u>Logic Design (2020), (2021)</u>
+  - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5BxPXo_bZ_yuAGzMEH7V52Y9)
+- <u>Introduction to programming (2019), (2021)</u>
+- <u>Software engineering (2018)</u>
+- <u>4th CSE (senior students) laboratory (2019), (2021)</u>
+  - Recorded videos: [2021](https://www.youtube.com/playlist?list=PLYq-G4vgX5Bw1TFu3hlXjPO5qUJNMuAHD)
+- <u>Biomedical engineering (2018)</u>
+  - Recorded videos: [2018](https://www.youtube.com/playlist?list=PLYq-G4vgX5BwpKNDCpwlELJi0phWhYjyI)
 
-## Volunteering
-- <u>(2022 - present) [ACE IT](https://aceit.org.uk/)</u>: One-to-one coach.
+You can find most of the slides used in my tutorials through <a href="https://github.com/AMR-KELEG/teaching-material"> https://github.com/AMR-KELEG/teaching-material</a>
