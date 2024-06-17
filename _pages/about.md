@@ -24,4 +24,4 @@ Additionally, I am interested in Arabizi (the Romanized form of Arabic). I devel
 
 Multilingualism is another field/cause that I am becoming more and more interested in!
 
-As an undergraduate student, I was a competitive programming addict (lots of fun experiences 😄). I am also an advocate of open-sourcing data/models/projects (twice a Google Summer of Code twice student for [Apertium](https://summerofcode.withgoogle.com/archive/2019/projects/5982561396850688/), and [GNU Octave](https://summerofcode.withgoogle.com/archive/2016/projects/5461783343005696) + contributor to other projects like [Facebook/Duckling](https://github.com/facebook/duckling)).
+As an undergraduate student, I was a competitive programming addict (lots of fun experiences 😄). I am also an advocate of open-sourcing data/models/projects (twice a Google Summer of Code student for [Apertium](https://summerofcode.withgoogle.com/archive/2019/projects/5982561396850688/), and [GNU Octave](https://summerofcode.withgoogle.com/archive/2016/projects/5461783343005696) + contributor to other projects like [Facebook/Duckling](https://github.com/facebook/duckling)).

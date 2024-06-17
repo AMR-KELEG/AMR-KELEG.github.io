@@ -6,12 +6,14 @@ description: Teaching/Reviewing/Volutneering activities I participated in.
 nav: true
 ---
 
-## Mentoring
+
+## Mentoring
 - <u>ACL 2024 (SRW)</u>
 - <u>(Summer 2023) MSc co-supervision</u> - Rae Liu, Hongyu Yu
 
 ## Services
 **Volunteering Services**
+- [SIGARAB](https://www.sigarab.org/): Online Asset Resource Manager
 - [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/): Publicity Chair
 
 **Organization**
