@@ -1,10 +1,16 @@
+---
+layout: page
+title: News
+permalink: /news/
+nav: false
+---
+
 <div class="news">
-  <h2>News</h2>
   {% if site.news  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
+      {% for item in news %}
         <tr>
           <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
           <td>
@@ -21,5 +27,4 @@
   {% else %}
     <p>No news so far...</p>
   {% endif %}
-  <a href="{{ '/news/' | relative_url }}">More news...</a>
 </div>
