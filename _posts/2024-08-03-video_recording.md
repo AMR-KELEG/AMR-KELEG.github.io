@@ -9,6 +9,8 @@ Recording research videos is still a challenging task to me. You have to use an 
 ## Recording the video
 For that, I use the [OBS studio](https://obsproject.com/) program, setting the scene before starting the recording. For the microphone, there is a gauge that is really helpful in konwing whether the placement of the microphone is suitable for the recording.
 
+Make sure to add the `macOS Screen Capture` to the scene instead of the generic Display Capture that does not work for macOS.
+
 ## Editting the video
 [Shotcut](https://www.shotcut.org/) is a video editting software that so far has proven to be enough for my recordings. I use the following features of it:
 * Splitting the recordings to cut-off any extended durations of silence.
