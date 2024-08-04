@@ -12,7 +12,7 @@ nav: true
 - <u>(Summer 2023) MSc co-supervision</u> - Rae Liu, Hongyu Yu
 
 ## Services
-**Volunteering Services**
+**Management Services**
 - [SIGARAB](https://www.sigarab.org/): Online Asset Resource Manager
 - [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/organizers/): Publicity Chair
 
@@ -30,6 +30,10 @@ nav: true
 - [ArabicNLP 2023](https://arabicnlp2023.sigarab.org/program-committee)
 - <u>ACL 2023</u>: `Multilinguality track`
 - [EACL 2023 (SRW)](https://sites.google.com/view/eacl2023srw/commitees)
+
+**Multilingual Data Contributions**
+- One of the Egyptian Arabic contributors for the [CVQA](https://huggingface.co/datasets/afaji/cvqa) dataset.
+- One of the Egyptian and Modern Standard Arabic contributors for the [Aya dataset](https://huggingface.co/datasets/CohereForAI/aya_dataset).
 
 ## Volunteering
 - <u>(2022 - present)</u> [ACE IT](https://aceit.org.uk/): One-to-one in-person coach, assisting learners (over 50 years) with their smart devices.
