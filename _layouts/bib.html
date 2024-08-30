@@ -2,6 +2,7 @@
 ---
 
 <div class="row">
+
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
@@ -51,8 +52,9 @@
         {% endfor %}
       </div>
 
-      <div class="periodical">
-      {% if entry.type == "article" %}
+
+        <div class="periodical">
+        {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
@@ -62,6 +64,13 @@
       {% endif %}
       </div>
     {% endif %}
+
+    <div class="periodical">
+      {% if entry.award %}
+      <u style='color:red;'>{{entry.award}}</u>
+      {% endif %}
+    </div>
+
 
     <div class="links">
     {% if entry.abstract %}
