@@ -8,6 +8,7 @@ nav: true
 
 
 ## Mentoring
+- [Coleader of the "Identifying mislabelled samples in the Aya dataset" - Aya Expedition by C4AI](https://www.youtube.com/watch?v=s-CC4OgG330)
 - <u>ACL 2024 (SRW)</u>
 - <u>(Summer 2023) MSc co-supervision</u> - Rae Liu, Hongyu Yu
 
@@ -36,12 +37,12 @@ nav: true
 - One of the Egyptian and Modern Standard Arabic contributors for the [Aya dataset](https://huggingface.co/datasets/CohereForAI/aya_dataset).
 
 ## Volunteering
-- <u>(2022 - present)</u> [ACE IT](https://aceit.org.uk/): One-to-one in-person coach, assisting learners (over 50 years) with their smart devices.
+- <u>(2022 - August 2024)</u> [ACE IT](https://aceit.org.uk/): One-to-one in-person coach, assisting learners (over 50 years) with their smart devices.
 
 ## Teaching
 **University of Edinburgh (Courses Taught):**
 - <u>Doing Research in NLP</u>
-  - Marker `(2024)`
+  - Marker `(2024), (2025)`
 
 - <u>Text Technologies for Data Science</u>
   - Demonstrator `(2023), (2024)`
@@ -49,7 +50,8 @@ nav: true
   - Final Exam Marker `(2022)`
 
 - <u>Accelerated NLP</u>
-  - Marker `(2023)`
+  - Teaching Assistant `(2025)`
+  - Marker `(2023), (2025)`
   - Final Exam Marker `(2023)`
 
 **Faculty of Engineering, Ain Shams University - Teaching Assistant - (Courses Taught):**
