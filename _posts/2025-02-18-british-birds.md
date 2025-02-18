@@ -6,12 +6,12 @@ description: appreciating my dear friends in the UK!
 ---
 
 ## Great tit
-* More info from RSPB: [https://www.rspb.org.uk/birds-and-wildlife/great-tit]
+* More info from RSPB: [https://www.rspb.org.uk/birds-and-wildlife/great-tit](https://www.rspb.org.uk/birds-and-wildlife/great-tit)
 
 <img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/black-tit.jpg" alt="Black tit" style="width: 100%">
 
 ## Cormorant
-* More info from RSPB: [https://www.rspb.org.uk/birds-and-wildlife/cormorant]
+* More info from RSPB: [https://www.rspb.org.uk/birds-and-wildlife/cormorant](https://www.rspb.org.uk/birds-and-wildlife/great-tit)
 
 <video style="width: 100%" controls>
   <source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/cormorant.mp4" type="video/mp4">
