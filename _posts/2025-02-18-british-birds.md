@@ -29,7 +29,7 @@ description: A special dedication to my dear British friends!
 	<div class="row">
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/mute-swan" target="_blank">Mute Swan</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/mute-swan.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -61,7 +61,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/blackbird" target="_blank">Blackbird</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/blackbird.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -75,7 +75,7 @@ description: A special dedication to my dear British friends!
 	<div class="row">
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/guillemot" target="_blank">Guillemot</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/guillemot.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -87,7 +87,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/oystercatcher" target="_blank">Oystercatcher</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/oystercatcher.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -110,7 +110,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/blue-tit" target="_blank">Blue Tit</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/blue-tit.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -133,7 +133,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/cormorant" target="_blank">Cormorant</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/cormorant.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -147,7 +147,7 @@ description: A special dedication to my dear British friends!
 	<div class="row">
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/moorhen" target="_blank">Moorhen</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/moorhen.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -159,7 +159,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/goldfinch" target="_blank">Goldfinch</a></h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/goldfinch.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -180,6 +180,9 @@ description: A special dedication to my dear British friends!
 			<li>Royal Botanic Garden - Edinburgh</li>
 			</ul>
 	</div>
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/pheasant" target="_blank">Pheasant</a></h3>
+	</div>
   </div>
 </div>
 
@@ -187,7 +190,7 @@ description: A special dedication to my dear British friends!
 <div class="container">
 	<div class="row">
 	<div class="col-sm">
-		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/junglefowl" target="_blank">Junglefowl</a></h3>
+		<h3>Junglefowl</h3>
 		<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/junglefowl.jpg" alt="Junglefowl" style="width: 100%"/>
 		<b>First spotted:</b>
 			<ul>
@@ -196,7 +199,7 @@ description: A special dedication to my dear British friends!
 			</ul>
 	</div>
 	<div class="col-sm">
-		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/white-breasted-waterhen" target="_blank">White-breasted waterhen</a></h3>
+		<h3>White-breasted waterhen</h3>
 		<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/white-breasted-waterhen.jpg" alt="White-breasted waterhen" style="width: 100%"/>
 		<b>First spotted:</b>
 			<ul>
@@ -208,7 +211,7 @@ description: A special dedication to my dear British friends!
 	<div class="row">
 	<div class="col-sm">
 		<h3>Myna</h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/myna.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -220,7 +223,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3>Eagle</h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/eagle.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -234,7 +237,7 @@ description: A special dedication to my dear British friends!
 	<div class="row">
 	<div class="col-sm">
 		<h3>Unidentified 1</h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
@@ -246,7 +249,7 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3>Unidentified 2</h3>
-		<video style="width: 100%" controls>
+		<video style="width: 100%" preload="none" controls>
 			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
