@@ -210,9 +210,9 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="row">
 	<div class="col-sm">
-		<h3>Myna</h3>
+		<h3>Crested Myna</h3>
 		<video style="width: 100%" preload="none" controls>
-			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/myna.mp4" type="video/mp4">Your browser does not support the video tag.
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/crested-myna.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
 		<b>First spotted:</b>
@@ -236,9 +236,9 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="row">
 	<div class="col-sm">
-		<h3>Unidentified 1</h3>
+		<h3>Common Myna</h3>
 		<video style="width: 100%" preload="none" controls>
-			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
 		<b>First spotted:</b>
@@ -248,9 +248,9 @@ description: A special dedication to my dear British friends!
 			</ul>
 	</div>
 	<div class="col-sm">
-		<h3>Unidentified 2</h3>
+		<h3>Unidentified 1</h3>
 		<video style="width: 100%" preload="none" controls>
-			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
 		<b>First spotted:</b>
