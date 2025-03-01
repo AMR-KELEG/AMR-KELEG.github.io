@@ -183,27 +183,78 @@ description: A special dedication to my dear British friends!
   </div>
 </div>
 
+## Non-British friends
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h3><a href="https://www.rspb.org.uk/birds-and-wildlife/great-tit" target="_blank">Great Tit</a></h3>
-      <img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/black-tit.jpg" alt="Black tit" style="width: 100%"/>
-      <b>First spotted:</b>
-      <ul>
-        <li>TODO</li>
-        <li>Edinburgh's Royal Botanic Garden</li>
-      </ul>
-    </div>
-    <div class="col-sm">
-      <h3>
-        <a href="https://www.rspb.org.uk/birds-and-wildlife/cormorant" target="_blank">Cormorant</a>
-      </h3>
-      <video style="width: 100%" controls>
-        <source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/cormorant.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <b>First spotted:</b> TODO
-    </div>
+	<div class="row">
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/junglefowl" target="_blank">Junglefowl</a></h3>
+		<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/junglefowl.jpg" alt="Junglefowl" style="width: 100%"/>
+		<b>First spotted:</b>
+			<ul>
+			<li>(Mon) 11-12-2023</li>
+			<li>Singapore Botanic Gardens</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/white-breasted-waterhen" target="_blank">White-breasted waterhen</a></h3>
+		<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/white-breasted-waterhen.jpg" alt="White-breasted waterhen" style="width: 100%"/>
+		<b>First spotted:</b>
+			<ul>
+			<li>(Mon) 11-12-2023</li>
+			<li>Singapore Botanic Gardens</li>
+			</ul>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-sm">
+		<h3>Myna</h3>
+		<video style="width: 100%" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/myna.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Mon) 11-12-2023</li>
+			<li>Singapore Botanic Gardens</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3>Eagle</h3>
+		<video style="width: 100%" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/eagle.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Sun) 18-08-2024</li>
+			<li>Krabi - Thailand</li>
+			</ul>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-sm">
+		<h3>Unidentified 1</h3>
+		<video style="width: 100%" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Sun) 18-08-2024</li>
+			<li>Krabi - Thailand</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3>Unidentified 2</h3>
+		<video style="width: 100%" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Sun) 18-08-2024</li>
+			<li>Krabi - Thailand</li>
+			</ul>
+	</div>
   </div>
 </div>
-
