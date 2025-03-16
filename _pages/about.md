@@ -22,27 +22,70 @@ I am currently studying the variation across and between the Arabic dialects, th
 
 Feel free to ping me if you are interested in discussing ideas related to the following interests, and/or collaborating on that!
 
+
+
 ### Research Interests
-1) <b>Computationally Handling Dialectal Variation (focusing on Arabic)</b>
-  * [Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets](https://aclanthology.org/2024.acl-short.69/) - ACL 2024 (Outstanding Paper award, Oral presentation)
-    * <u>Keleg, Amr</u>, Magdy, Walid, and Goldwater, Sharon
-  * [NADI 2024: The Fifth Nuanced Arabic Dialect Identification Shared Task](https://aclanthology.org/2024.arabicnlp-1.79/) - ArabicNLP 2024 (Shared Task Organization, co-located with ACL 2024)
-    * Abdul-Mageed, Muhammad, <u>Keleg, Amr</u>, Elmadany, AbdelRahim, Zhang, Chiyu, Hamed, Injy, Magdy, Walid, Bouamor, Houda, and Habash, Nizar
-  * [ALDi: Quantifying the Arabic Level of Dialectness of Text](https://aclanthology.org/2023.emnlp-main.655/) - EMNLP 2023
-    * <u>Keleg, Amr</u>, Goldwater, Sharon, and Magdy, Walid
-  * [Arabic Dialect Identification under Scrutiny: Limitations of Single-label Classification](https://aclanthology.org/2023.arabicnlp-1.31/) - ArabicNLP 2023 (Oral presentation, co-located with EMNLP 2023)
-    * <u>Keleg, Amr</u>, and Magdy, Walid
+<details>
+    <summary>1) <b>Computationally Handling Dialectal Variation (focusing on Arabic)</b></summary>
+    <p>
+    <ul>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2024.acl-short.69/">Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets</a> - ACL 2024 (Outstanding Paper award, Oral presentation)<br/>
+        <u>Keleg, Amr</u>, Magdy, Walid, and Goldwater, Sharon
+      </li>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2024.arabicnlp-1.79/">NADI 2024: The Fifth Nuanced Arabic Dialect Identification Shared Task</a> - ArabicNLP 2024 (Shared Task Organization, co-located with ACL 2024)<br/>
+        Abdul-Mageed, Muhammad, <u>Keleg, Amr</u>, Elmadany, AbdelRahim, Zhang, Chiyu, Hamed, Injy, Magdy, Walid, Bouamor, Houda, and Habash, Nizar
+      </li>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2023.emnlp-main.655/">ALDi: Quantifying the Arabic Level of Dialectness of Text</a> - EMNLP 2023<br/>
+        <u>Keleg, Amr</u>, Goldwater, Sharon, and Magdy, Walid        
+      </li>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2024.arabicnlp-1.79/">Arabic Dialect Identification under Scrutiny: Limitations of Single-label Classification</a> - ArabicNLP 2023 (Oral presentation, co-located with EMNLP 2023)<br/>
+        <u>Keleg, Amr</u>, and Magdy, Walid
+      </li>
+    </ul>
+  </p>
+</details>
 
+<details>
+    <summary>2) <b>Multilingual and Multicultural research</b></summary>
+    <p>
+    <ul>
+      <li>
+        LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones? - C3NLP (co-located with NAACL 2025)<br/>
+        <u>Keleg, Amr</u>
+      </li>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2023.findings-acl.389/">DLAMA: A Framework for Curating Culturally Diverse Facts for Probing the Knowledge of Pretrained Language Models</a> - ACL 2023 (Findings)<br/>
+        <u>Keleg, Amr</u>, and Magdy, Walid
+      </li>
+      <li>
+        <a target="_blank" href="https://aclanthology.org/2020.lrec-1.474/">An Unsupervised Method for Weighting Finite-state Morphological Analyzers</a> - LREC 2020<br/>
+        <u>Keleg, Amr</u>, Tyers, Francis, Howell, Nick, and Pirinen, Tommi
+      </li>
+    </ul>
+  </p>
+</details>
 
-2) <b>Multilingual and Multicultural research</b>
-  * [DLAMA: A Framework for Curating Culturally Diverse Facts for Probing the Knowledge of Pretrained Language Models](https://aclanthology.org/2023.findings-acl.389/) - ACL 2023 (Findings)
-    * <u>Keleg, Amr</u>, and Magdy, Walid
-  * [An Unsupervised Method for Weighting Finite-state Morphological Analyzers](https://aclanthology.org/2020.lrec-1.474/) - LREC 2020
-    * <u>Keleg, Amr</u>, Tyers, Francis, Howell, Nick, and Pirinen, Tommi
+<details>
+    <summary>3) <b>Analyzing Romanized Writings of Non-Latin Languages</b></summary>
+    <p>
+    <ul>
+      <li>
+        I developed a <a target="_blank" href="https://pypi.org/project/franco-arabic-transliterator/">rule-based tool</a> transliterating Arabizi (Romanized Arabic) into Arabic script.
+      </li>
+    </ul>
+  </p>
+</details>
+<p></p>
 
-3) <b>Analyzing Romanized Writings of Non-Latin Languages</b>
-  * I developed a [rule-based tool](https://pypi.org/project/franco-arabic-transliterator/) transliterating Arabizi (Romanized Arabic) into Arabic script.
+<details>
+    <summary><b>Other Interests</b></summary>
+    <p>
+      As an undergraduate student, I was a competitive programming addict (lots of fun experiences 😄). I am also an advocate of open-sourcing data/models/projects (twice a Google Summer of Code student for <a target="_blank" href="https://summerofcode.withgoogle.com/archive/2019/projects/5982561396850688/">Apertium</a>, and <a target="_blank" href="https://summerofcode.withgoogle.com/archive/2016/projects/5461783343005696">GNU Octave</a> + contributor to other projects like <a target="_blank" href="https://github.com/facebook/duckling">Facebook/Duckling</a>).
+  </p>
+</details>
 
-
-### Other Interests
-* As an undergraduate student, I was a competitive programming addict (lots of fun experiences 😄). I am also an advocate of open-sourcing data/models/projects (twice a Google Summer of Code student for [Apertium](https://summerofcode.withgoogle.com/archive/2019/projects/5982561396850688/), and [GNU Octave](https://summerofcode.withgoogle.com/archive/2016/projects/5461783343005696) + contributor to other projects like [Facebook/Duckling](https://github.com/facebook/duckling)).
+<p></p>

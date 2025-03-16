@@ -5,6 +5,9 @@ date: 2025-02-18
 description: A special dedication to my dear British friends!
 ---
 
+My interest in birds has been developing for years, but pursuing a PhD in the UK fortified my connection with them. Birds are charming creatures, and it is no surprise they are sometimes used as symbols of freedom. In this blog post, I document my humble attempts of capturing the diversity and beauty of the birds, mainly in the UK. There is also honorary mention for my non-British friends. The [RSPB](https://www.rspb.org.uk/) provides insightful pages for each page, which can be accessed by clicking the bird names listed below!
+<hr>
+
 <div class="container">
 <div class="row">
 	<div class="col-sm">
@@ -182,6 +185,12 @@ description: A special dedication to my dear British friends!
 	</div>
 	<div class="col-sm">
 		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/pheasant" target="_blank">Pheasant</a></h3>
+		<img src="" alt="Pheasant" style="width: 100%"/>
+		<b>First spotted:</b>
+			<ul>
+			<li></li>
+			<li></li>
+			</ul>
 	</div>
   </div>
 </div>
@@ -238,7 +247,7 @@ description: A special dedication to my dear British friends!
 	<div class="col-sm">
 		<h3>Common Myna</h3>
 		<video style="width: 100%" preload="none" controls>
-			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
 		<b>First spotted:</b>
@@ -248,9 +257,9 @@ description: A special dedication to my dear British friends!
 			</ul>
 	</div>
 	<div class="col-sm">
-		<h3>Unidentified 1</h3>
+		<h3>Unidentified 2</h3>
 		<video style="width: 100%" preload="none" controls>
-			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified1.mp4" type="video/mp4">Your browser does not support the video tag.
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/unidentified2.mp4" type="video/mp4">Your browser does not support the video tag.
 		</video>
 
 		<b>First spotted:</b>
