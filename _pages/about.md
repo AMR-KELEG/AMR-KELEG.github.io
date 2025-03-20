@@ -54,7 +54,7 @@ Feel free to ping me if you are interested in discussing ideas related to the fo
     <p>
     <ul>
       <li>
-        LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones? - C3NLP (co-located with NAACL 2025)<br/>
+        <a target="_blank" href="https://arxiv.org/abs/2503.15003">LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?</a> - C3NLP (co-located with NAACL 2025)<br/>
         <u>Keleg, Amr</u>
       </li>
       <li>
