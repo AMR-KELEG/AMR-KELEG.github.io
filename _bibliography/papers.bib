@@ -10,6 +10,7 @@
     abstract = "Large language models (LLMs) have the potential of being useful tools that can automate tasks and assist humans. However, these models are more fluent in English and more aligned with Western cultures, norms, and values. Arabic-specific LLMs are being developed to better capture the nuances of the Arabic language, as well as the views of the Arabs. Yet, Arabs are sometimes assumed to share the same culture. In this position paper, I discuss the limitations of this assumption and provide preliminary thoughts for how to build systems that can better represent the cultural diversity within the Arab world. The invalidity of the cultural homogeneity assumption might seem obvious, yet, it is widely adopted in developing multilingual and Arabic-specific LLMs. I hope that this paper will encourage the NLP community to be considerate of the cultural diversity within various communities speaking the same language.",
     selected={true},
     bibtex_show={true},
+    blog={../../blog/2025/llm_alignment_for_arabs/}
 }
 
 
@@ -35,6 +36,8 @@
     bibtex_show={true},
     award={ACL 2024 Outstanding Paper Award},
     award_name={ACL 2024 Outstanding Paper Award},
+    code = "https://github.com/AMR-KELEG/ALDi-and-IAA",
+
 }
 
 @inproceedings{abdul-mageed-etal-2024-nadi,
@@ -74,7 +77,8 @@
     pages = "709--728",
     abstract = "We describe the findings of the fifth Nuanced Arabic Dialect Identification Shared Task (NADI 2024). NADI{'}s objective is to help advance SoTA Arabic NLP by providing guidance, datasets, modeling opportunities, and standardized evaluation conditions that allow researchers to collaboratively compete on prespecified tasks. NADI 2024 targeted both dialect identification cast as a multi-label task (Subtask 1), identification of the Arabic level of dialectness (Subtask 2), and dialect-to-MSA machine translation (Subtask 3). A total of 51 unique teams registered for the shared task, of whom 12 teams have participated (with 76 valid submissions during the test phase). Among these, three teams participated in Subtask 1, three in Subtask 2, and eight in Subtask 3. The winning teams achieved 50.57 F1 on Subtask 1, 0.1403 RMSE for Subtask 2, and 20.44 BLEU in Subtask 3, respectively. Results show that Arabic dialect processing tasks such as dialect identification and machine translation remain challenging. We describe the methods employed by the participating teams and briefly offer an outlook for NADI.",
     selected={true},
-    bibtex_show={true}
+    bibtex_show={true},
+    website="https://huggingface.co/spaces/AMR-KELEG/MLADI"
 }
 
 
@@ -102,6 +106,7 @@
     doi = "10.18653/v1/2023.emnlp-main.655",
     pages = "10597--10611",
     abstract = "Transcribed speech and user-generated text in Arabic typically contain a mixture of Modern Standard Arabic (MSA), the standardized language taught in schools, and Dialectal Arabic (DA), used in daily communications. To handle this variation, previous work in Arabic NLP has focused on Dialect Identification (DI) on the sentence or the token level. However, DI treats the task as binary, whereas we argue that Arabic speakers perceive a spectrum of dialectness, which we operationalize at the sentence level as the Arabic Level of Dialectness (ALDi), a continuous linguistic variable. We introduce the AOC-ALDi dataset (derived from the AOC dataset), containing 127,835 sentences (17{\%} from news articles and 83{\%} from user comments on those articles) which are manually labeled with their level of dialectness. We provide a detailed analysis of AOC-ALDi and show that a model trained on it can effectively identify levels of dialectness on a range of other corpora (including dialects and genres not included in AOC-ALDi), providing a more nuanced picture than traditional DI systems. Through case studies, we illustrate how ALDi can reveal Arabic speakers{'} stylistic choices in different situations, a useful property for sociolinguistic analyses.",
+    data = "https://github.com/AMR-KELEG/ALDi/tree/master/data"
 }
 
 @inproceedings{keleg-magdy-2023-arabic,
