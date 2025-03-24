@@ -87,7 +87,7 @@ collections:
   #   output: true
   #   permalink: /faq/:path/
 
-news_limit: 5
+news_limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
