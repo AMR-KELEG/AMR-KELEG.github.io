@@ -27,4 +27,5 @@ description: A (non-exhaustive) digital backup for latex packages/ commands that
 \nobibliography*
 ```
 Then, use `\bibentry{ENTRY_KEY}`.
-- More information about the different bib entries: https://bibtex.eu/types/
+- More information about the different bib entries: [here](https://bibtex.eu/types/)
+- Use `\autoref{}` instead of `\ref{}` to anchor the whole reference and not just the number!
