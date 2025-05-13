@@ -2,7 +2,7 @@
 layout: post
 title: A dump of useful Latex commands
 date: 2023-05-18
-description: A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - Jan 2025)
+description: A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - May 2025)
 ---
 
 - `printlen`: To print the length of text width (6.3 for LREC template) - [documentation](https://ftp.cc.uoc.gr/mirrors/CTAN/macros/latex/contrib/printlen/printlen-doc.pdf)
