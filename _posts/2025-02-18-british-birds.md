@@ -193,6 +193,139 @@ My interest in birds has been developing for years, but pursuing a PhD in the UK
 			</ul>
 	</div>
   </div>
+  	<div class="row">
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/tufted-duck" target="_blank">Tufted Duck</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/tufted-duck.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Thu) 08-05-2025</li>
+			<li>Cardiff Bay - Cardiff</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/great-crested-grebe" target="_blank">Great Crested Grebe</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/great-crested-grebe.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Thu) 08-05-2025</li>
+			<li>Cardiff Bay - Cardiff</li>
+			</ul>
+	</div>
+  </div>
+
+  <div class="row">
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/grey-heron" target="_blank">Grey Heron</a></h3>
+		<img src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/heron.jpg" alt="Grey Heron" style="width: 100%"/>
+		<b>First spotted (or First photographed in this case!):</b>
+			<ul>
+			<li>(Sun) 08-06-2025</li>
+			<li>Water of Leith</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/chaffinch" target="_blank">Chaffinch</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/chaffinch.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Sun) 08-06-2025</li>
+			<li>Water of Leith</li>
+			</ul>
+	</div>
+
+  </div>
+
+  <div class="row">
+
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/shag" target="_blank">Shag</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/shag.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Tue) 01-07-2025</li>
+			<li>Tobermory</li>
+			</ul>
+	</div>
+  	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/puffin" target="_blank">Puffin</a></h3>
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/puffin.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted (or First photographed in this case!):</b>
+			<ul>
+			<li>(Tue) 01-07-2025</li>
+			<li>Lunga</li>
+			</ul>
+	</div>
+
+  </div>
+
+    <div class="row">
+
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/razorbill" target="_blank">Razorbill</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/razorbill.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted:</b>
+			<ul>
+			<li>(Tue) 01-07-2025</li>
+			<li>Tobermory <-> Lunga</li>
+			</ul>
+	</div>
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/gannet" target="_blank">Gannet</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/gannet.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted (or First photographed in this case!):</b>
+			<ul>
+			<li>(Tue) 01-07-2025</li>
+			<li>Tobermory <-> Lunga</li>
+			</ul>
+	</div>
+
+  </div>
+
+    <div class="row">
+
+	<div class="col-sm">
+		<h3><a href="https://www.rspb.org.uk/birds-and-wildlife/guillemot" target="_blank">Guillemot (another mention!)</a></h3>
+
+		<video style="width: 100%" preload="none" controls>
+			<source src="https://raw.githubusercontent.com/AMR-KELEG/AMR-KELEG.github.io/master/assets/img/birds/guillemot2.mp4" type="video/mp4">Your browser does not support the video tag.
+		</video>
+
+		<b>First spotted (or First photographed in this case!):</b>
+			<ul>
+			<li>(Wed) 02-07-2025</li>
+			<li>Oban</li>
+			</ul>
+	</div>
+  </div>
+
 </div>
 
 ## Non-British friends
