@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Cherry-picked projects.
-nav: true
+nav: false
 ---
 
 <div class="projects grid">
