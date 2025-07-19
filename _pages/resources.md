@@ -11,6 +11,7 @@ nav: true
   * A model that predicts the Arabic Level of Dialectness (ALDi) of sentence-like units. The ALDi score is in the range [0, 1], where 0 implies pure Modern Standard Arabic (MSA) and 1 means highly dialectal language.
   * **Model:** [https://huggingface.co/AMR-KELEG/Sentence-ALDi](https://huggingface.co/AMR-KELEG/Sentence-ALDi)
   * **Demo:** [https://huggingface.co/spaces/AMR-KELEG/ALDi](https://huggingface.co/spaces/AMR-KELEG/ALDi)
+  * **Baseline (Token Dialect Identification):** [https://huggingface.co/AMR-KELEG/ALDi-Token-DI](https://huggingface.co/AMR-KELEG/ALDi-Token-DI)
   * **Dataset:** The model was fine-tuned on the AOC-ALDi dataset - [https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz](https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz)
   * **Papers:**
     * [Amr Keleg, Sharon Goldwater, and Walid Magdy. 2023. ALDi: Quantifying the Arabic Level of Dialectness of Text.](https://aclanthology.org/2023.emnlp-main.655/) In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 10597–10611, Singapore.
