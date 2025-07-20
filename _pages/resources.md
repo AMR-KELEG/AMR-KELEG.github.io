@@ -40,5 +40,9 @@ nav: true
   * **Original Evaluation Dataset:** [QADI's test set](https://github.com/qcri/QADI/tree/master/testset)
   * **Paper:** [Amr Keleg and Walid Magdy. 2023. Arabic Dialect Identification under Scrutiny: Limitations of Single-label Classification](https://aclanthology.org/2023.arabicnlp-1.31/). In Proceedings of ArabicNLP 2023, pages 385–398, Singapore (Hybrid).
 
-<!-- ## Factual Knowledge
-- DLAMA (TODO!) -->
+## Factual Knowledge
+* <u>DLAMA-v1</u>
+  * **Dataset Description:** benchmark of factual triples from three pairs of contrasting cultures having a total of 78,259 triples from 20 relation predicates. The three pairs comprise facts representing the (Arab and Western), (Asian and Western), and (South American and Western) countries respectively.
+  * **Link on HF datasets:** [https://huggingface.co/datasets/AMR-KELEG/DLAMA-v1](https://huggingface.co/datasets/AMR-KELEG/DLAMA-v1)
+  * **Codebase:** [https://github.com/AMR-KELEG/DLAMA](https://github.com/AMR-KELEG/DLAMA)
+  * **Paper:** [Amr Keleg and Walid Magdy. 2023. DLAMA: A Framework for Curating Culturally Diverse Facts for Probing the Knowledge of Pretrained Language Models.](https://aclanthology.org/2023.findings-acl.389/) In Findings of the Association for Computational Linguistics: ACL 2023, pages 6245–6266, Toronto, Canada.
