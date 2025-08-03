@@ -30,6 +30,10 @@ Feel free to ping me if you are interested in discussing ideas related to the fo
     <p>
     <ul>
       <li>
+        <a target="_blank" href="https://aclanthology.org/2025.acl-long.166/">Revisiting Common Assumptions about Arabic Dialects in NLP</a> - ACL 2025<br/>
+        <u>Keleg, Amr</u>, Goldwater, Sharon, and Magdy, Walid
+      </li>
+      <li>
         <a target="_blank" href="https://aclanthology.org/2024.acl-short.69/">Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets</a> - ACL 2024 (Outstanding Paper award, Oral presentation)<br/>
         <u>Keleg, Amr</u>, Magdy, Walid, and Goldwater, Sharon
       </li>
@@ -53,10 +57,6 @@ Feel free to ping me if you are interested in discussing ideas related to the fo
     <summary>2) <b>Multilingual and Multicultural research</b></summary>
     <p>
     <ul>
-      <li>
-        <a target="_blank" href="https://arxiv.org/abs/2505.21816">Revisiting Common Assumptions about Arabic Dialects in NLP</a> - ACL 2025<br/>
-        <u>Keleg, Amr</u>, Goldwater, Sharon, and Magdy, Walid
-      </li>
       <li>
         <a target="_blank" href="https://aclanthology.org/2025.c3nlp-1.1/">LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?</a> - C3NLP (co-located with NAACL 2025)<br/>
         <u>Keleg, Amr</u>
