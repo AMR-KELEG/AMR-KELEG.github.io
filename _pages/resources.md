@@ -11,13 +11,12 @@ nav: true
   * A model that predicts the Arabic Level of Dialectness (ALDi) of sentence-like units. The ALDi score is in the range [0, 1], where 0 implies pure Modern Standard Arabic (MSA) and 1 means highly dialectal language.
   * **Model:** [https://huggingface.co/AMR-KELEG/Sentence-ALDi](https://huggingface.co/AMR-KELEG/Sentence-ALDi)
   * **Demo:** [https://huggingface.co/spaces/AMR-KELEG/ALDi](https://huggingface.co/spaces/AMR-KELEG/ALDi)
-  * **Baseline (Token Dialect Identification):** [https://huggingface.co/AMR-KELEG/ALDi-Token-DI](https://huggingface.co/AMR-KELEG/ALDi-Token-DI)
   * **Dataset:** The model was fine-tuned on the AOC-ALDi dataset - [https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz](https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz)
+  * **Baseline (Token Dialect Identification):** [https://huggingface.co/AMR-KELEG/ALDi-Token-DI](https://huggingface.co/AMR-KELEG/ALDi-Token-DI)
   * **Papers:**
     * [Amr Keleg, Sharon Goldwater, and Walid Magdy. 2023. ALDi: Quantifying the Arabic Level of Dialectness of Text.](https://aclanthology.org/2023.emnlp-main.655/) In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 10597–10611, Singapore.
     * [Amr Keleg, Walid Magdy, and Sharon Goldwater. 2024. Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets.](https://aclanthology.org/2024.acl-short.69/) In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 766–777, Bangkok, Thailand.
 
-<br/>
 
 ## Arabic Dialect Identification (ADI)
 
