@@ -2,7 +2,7 @@
 layout: post
 title: A dump of useful Latex commands
 date: 2023-05-18
-description: A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - May 2025)
+description: A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - October 2025)
 ---
 
 - `printlen`: To print the length of text width (6.3 for LREC template) - [documentation](https://ftp.cc.uoc.gr/mirrors/CTAN/macros/latex/contrib/printlen/printlen-doc.pdf)
@@ -29,3 +29,21 @@ description: A (non-exhaustive) digital backup for latex packages/ commands that
 Then, use `\bibentry{ENTRY_KEY}`.
 - More information about the different bib entries: [here](https://bibtex.eu/types/)
 - Use `\autoref{}` instead of `\ref{}` to anchor the whole reference and not just the number!
+- The `changes` package is useful for tracking changes
+```
+\usepackage{changes}
+
+% The following lines are only needed for changing the colors!
+\definecolor{addedcolor}{RGB}{0,128,0} % Green for added
+\definecolor{deletedcolor}{RGB}{255,69,0} % Orange for deleted
+\setaddedmarkup{\color{addedcolor}\uline{#1}}
+\setdeletedmarkup{\color{deletedcolor}\sout{#1}}
+
+
+...
+
+\begin{document}
+    \added{TEXT ADDED} \replaced{NEW}{OLD} \deleted{DELETE}
+\end{document}
+
+```
