@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>The university of Edinburgh</p>
-    <p>Edinburgh, Scotland</p>
+    <p>MZBUAI</p>
+    <p>Abu Dhabi, UAE</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -17,8 +17,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello (أهلًا وسهلًا)! 👋👋
 
-My name is Amr Keleg عمرو قلج (/ʕamr/ /kɯˈɫɯtʃ/). I am a PhD student (CDT in NLP) at the University of Edinburgh, working under the supervision of [Walid Magdy](https://homepages.inf.ed.ac.uk/wmagdy/) and [Sharon Goldwater](https://homepages.inf.ed.ac.uk/sgwater/).
-I am currently studying the variation across and between the Arabic dialects, their mutual intelligibility, and the implications of this variation on the creation of multi-dialect Arabic datasets.
+My name is Amr Keleg عمرو قلج (/ʕamr/ /kɯˈɫɯtʃ/). I am a postdoctoral researcher at MBZUAI, working on cultural alignment with [Fajri Koto](https://www.fajrikoto.com). I have recently defended my PhD at the University of Edinburgh, which was done under the supervision of [Walid Magdy](https://homepages.inf.ed.ac.uk/wmagdy/) and [Sharon Goldwater](https://homepages.inf.ed.ac.uk/sgwater/).
+My PhD focused on studying the variation across and between the Arabic dialects, their mutual intelligibility, and the implications of this variation on the creation of multi-dialect Arabic datasets.
 
 Feel free to ping me if you are interested in discussing ideas related to the following interests, and/or collaborating on that!
 
