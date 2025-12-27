@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Amr  Keleg | blank</title>
+<title>Amr  Keleg | My two cents on numpy broadcasting</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/revisiting-numpy/">
 
 <!-- Theming-->
 
@@ -144,110 +144,54 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h3>Random Blog posts and thoughts</h3>
-    <h5>\O/</h5>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">My two cents on numpy broadcasting</h1>
+    <p class="post-meta">October 2, 2021</p>
+  </header>
+
+  <article class="post-content">
+    <p>Numpy is the go-to library that one generally uses in order to speedup heavy computations in python.
+However, one needs to be knowledgable of different numpy tips and tricks to make full use of it. One of these tricks is broadcasting.</p>
+
+<h2 id="shape-of-numpy-arrays">Shape of numpy arrays</h2>
+<p>Broadcasting is generally used to perform operations between variables of different shapes. But, before diving into it, let’s familiarize first with how shapes of variables are represented</p>
+
+<h4 id="example-1">Example 1</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># 1) A scalar
+</span><span class="n">s</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span> <span class="c1"># ()
+</span>
+<span class="c1"># 2) A 1D array
+</span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span> <span class="c1"># (3,)
+</span>
+<span class="c1"># 3) A row vector
+</span><span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span> <span class="c1"># (1, 3)
+</span></code></pre></div></div>
+
+<p>Things start to get tedious once we start seeing something like:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span>
+    <span class="p">[[[[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">]],</span> <span class="p">[[</span><span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">]],</span> <span class="p">[[</span><span class="mi">5</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">]]],</span> <span class="p">[[[</span><span class="mi">7</span><span class="p">],</span> <span class="p">[</span><span class="mi">8</span><span class="p">]],</span> <span class="p">[[</span><span class="mi">9</span><span class="p">],</span> <span class="p">[</span><span class="mi">10</span><span class="p">]],</span> <span class="p">[[</span><span class="mi">11</span><span class="p">],</span> <span class="p">[</span><span class="mi">12</span><span class="p">]]]]</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>It’s easy to confuse yourself looking at such multi-dimensional array. Knowing the shape of the underlying numpy array is cruicial for knowing how other operations like broadcasting, and indexing will work.
+The way I found is to start from the deepest level lists (i.e.: [1] or [2] or …). The length of such lists is 1, and thus the shape of the numpy array is (????, 1).
+The next step is to look at the next level list (i.e.: [ [1], [2] ] or [ [3], [4] ] or …). Ignore the values in the inner lists and just count the number of lists inside the outer list. For this example, we have two inner lists which makes the shape of the numpy array (????, 2, 1).</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2025/llm_alignment_for_arabs/">Paper Thread - LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?</a></h3>
-        <p class="post-meta">March 22, 2025</p>
-        <p>A copy of the paper's thread on BlueSky (and X?)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2025/british-birds/">Demistifying my bag's birds pins</a></h3>
-        <p class="post-meta">February 18, 2025</p>
-        <p>A special dedication to my dear British friends!</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2024/video_recording/">A recipe for recording videos (frequently updated)</a></h3>
-        <p class="post-meta">August 3, 2024</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/matplotlib_recipe/">A recipe for matplotlib figures</a></h3>
-        <p class="post-meta">November 7, 2023</p>
-        <p>How I make my figures fancier 😌  (Last updated - December 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/arabic_in_latex/">The difficulties of typing Arabic text in latex</a></h3>
-        <p class="post-meta">September 24, 2023</p>
-        <p>TL;DR - Use babel with pdflatex!<br> (Last Updated - April 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/my-latex-cheatsheet/">A dump of useful Latex commands</a></h3>
-        <p class="post-meta">May 18, 2023</p>
-        <p>A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - October 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/hamzat/">خواطر عمروية عن اللغة العربية - (١) الهمزات</a></h3>
-        <p class="post-meta">April 29, 2022</p>
-        <p>رحلتي مع الهمزات من فقدان الأمل إلي محاولة التمعن</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/revisiting-numpy/">My two cents on numpy broadcasting</a></h3>
-        <p class="post-meta">October 2, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/twitter-api/">What's new to me about Twitter API</a></h3>
-        <p class="post-meta">August 26, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/h-index-101/">h-index 101</a></h3>
-        <p class="post-meta">April 16, 2021</p>
-        <p>A simple way to think of how h-index is computed</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/interesting-pip-packages/">My list of the best pip packages</a></h3>
-        <p class="post-meta">December 18, 2020</p>
-        <p>Useful Python packages that I use/have used</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/useful-linux-commands/">List of tips and tricks for using linux commands</a></h3>
-        <p class="post-meta">September 18, 2020</p>
-        <p>A set of linux commands that I find useful (Last updated Dec 2023!)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/arabic-datasets/">Arabic NLP resources</a></h3>
-        <p class="post-meta">July 14, 2020</p>
-        <p>A non-exhaustive list of linguistic Arabic resources online</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/regex-cheatsheet/">My regex cheatsheet</a></h3>
-        <p class="post-meta">March 16, 2020</p>
-        <p>A set of regex related tips/concepts</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/google-codejam/">Google Code Jam 2019 Challenge</a></h3>
-        <p class="post-meta">April 17, 2019</p>
-        <p>A challenge with my undergraduate students</p>
-      </li>
-    
-  </ul>
+  </article>
 
   
-
 
 </div>
 

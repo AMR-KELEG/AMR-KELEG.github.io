@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Amr  Keleg | blank</title>
+<title>Amr  Keleg | A recipe for matplotlib figures</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2023/matplotlib_recipe/">
 
 <!-- Theming-->
 
@@ -144,110 +144,123 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h3>Random Blog posts and thoughts</h3>
-    <h5>\O/</h5>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">A recipe for matplotlib figures</h1>
+    <p class="post-meta">November 7, 2023</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2025/llm_alignment_for_arabs/">Paper Thread - LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?</a></h3>
-        <p class="post-meta">March 22, 2025</p>
-        <p>A copy of the paper's thread on BlueSky (and X?)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2025/british-birds/">Demistifying my bag's birds pins</a></h3>
-        <p class="post-meta">February 18, 2025</p>
-        <p>A special dedication to my dear British friends!</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2024/video_recording/">A recipe for recording videos (frequently updated)</a></h3>
-        <p class="post-meta">August 3, 2024</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/matplotlib_recipe/">A recipe for matplotlib figures</a></h3>
-        <p class="post-meta">November 7, 2023</p>
-        <p>How I make my figures fancier 😌  (Last updated - December 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/arabic_in_latex/">The difficulties of typing Arabic text in latex</a></h3>
-        <p class="post-meta">September 24, 2023</p>
-        <p>TL;DR - Use babel with pdflatex!<br> (Last Updated - April 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/my-latex-cheatsheet/">A dump of useful Latex commands</a></h3>
-        <p class="post-meta">May 18, 2023</p>
-        <p>A (non-exhaustive) digital backup for latex packages/ commands that I found useful someday! (Last updated - October 2025)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/hamzat/">خواطر عمروية عن اللغة العربية - (١) الهمزات</a></h3>
-        <p class="post-meta">April 29, 2022</p>
-        <p>رحلتي مع الهمزات من فقدان الأمل إلي محاولة التمعن</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/revisiting-numpy/">My two cents on numpy broadcasting</a></h3>
-        <p class="post-meta">October 2, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/twitter-api/">What's new to me about Twitter API</a></h3>
-        <p class="post-meta">August 26, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/h-index-101/">h-index 101</a></h3>
-        <p class="post-meta">April 16, 2021</p>
-        <p>A simple way to think of how h-index is computed</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/interesting-pip-packages/">My list of the best pip packages</a></h3>
-        <p class="post-meta">December 18, 2020</p>
-        <p>Useful Python packages that I use/have used</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/useful-linux-commands/">List of tips and tricks for using linux commands</a></h3>
-        <p class="post-meta">September 18, 2020</p>
-        <p>A set of linux commands that I find useful (Last updated Dec 2023!)</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/arabic-datasets/">Arabic NLP resources</a></h3>
-        <p class="post-meta">July 14, 2020</p>
-        <p>A non-exhaustive list of linguistic Arabic resources online</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/regex-cheatsheet/">My regex cheatsheet</a></h3>
-        <p class="post-meta">March 16, 2020</p>
-        <p>A set of regex related tips/concepts</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/google-codejam/">Google Code Jam 2019 Challenge</a></h3>
-        <p class="post-meta">April 17, 2019</p>
-        <p>A challenge with my undergraduate students</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <h2 id="general-setup">General Setup</h2>
+
+<p>I use the following parameters for my plots.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import matplotlib
+import matplotlib.pyplot as plt
+
+# Set the font of the general labels to 7.
+# Note: This generally works for my *CL papers,
+# for which the default caption font size is 10.
+font = {"size": 7}
+matplotlib.rc("font", **font)
+
+# Remove some of the sides of the plot's frame
+matplotlib.rcParams["axes.spines.left"] = True
+matplotlib.rcParams["axes.spines.right"] = False
+matplotlib.rcParams["axes.spines.top"] = False
+matplotlib.rcParams["axes.spines.bottom"] = True
+
+# Allow using tex in labels and titles
+# Note: This requires the system to have some tex dependencies installed
+matplotlib.rcParams["text.latex.preamble"] = [r"\boldmath"]
+</code></pre></div></div>
+
+<h2 id="figure-size">Figure Size</h2>
+
+<p>I am so far mostly submitting to *CL conferences and their accompanying workshops, which tend to follow the style templates: https://github.com/acl-org/acl-style-files</p>
+
+<p>For this style, the \textwidth is equivalent to <code class="language-plaintext highlighter-rouge">6.30045 inches</code>. For a two-column figure, you need to set the width to ~ 6.3 (the default unit for matplotlib is inch). For a single-column figure, it should be half the text width.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># For a two-column figure
+plt.figure(figsize=(6.3, SET_SUITABLE_HEIGHT))
+
+# For a single-column figure
+plt.figure(figsize=(6.3/2, SET_SUITABLE_HEIGHT))
+</code></pre></div></div>
+
+<p>The benefit you will get is that you will not need to rescale the figure in LaTeX, which implies that the font sizes of the different labels will not be affected.</p>
+
+<h2 id="legend">Legend</h2>
+<p>I generally prefer frameless legends, setting the following flag <code class="language-plaintext highlighter-rouge">frameon=False</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plt.legend(frameon=False)
+</code></pre></div></div>
+
+<p>A hack for changing the order of the labels.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Check the labels for the current diagram
+handles, labels = plt.gca().get_legend_handles_labels()
+
+# Set the order after checking their default order in the plot
+# This requires the knowledge of the default order 
+# (i.e.: generating the plot before updating the order)
+order = [2, 1, 0, 3, 4]
+
+plt.legend(
+    [handles[idx] for idx in order],
+    [labels[idx] for idx in order],
+    title="LEGEND_TITLE",
+    frameon=False,
+    prop={"size": 6}, # The size of the text within the legend
+    handlelength=0.8,
+)
+</code></pre></div></div>
+
+<h2 id="exporting-to-pdf">Exporting to pdf</h2>
+
+<p>Using <strong>tight layout</strong> fixes the positions of labels and axes ticks in the exported figure</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plt.savefig("fig1.pdf", bbox_inches="tight")
+</code></pre></div></div>
+
+<p>Note: Exported pdfs can not have transparent backgrounds, so I change the background for the plot into the color I am expecting as follows</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TODO!
+</code></pre></div></div>
+
+<h2 id="annotations">Annotations</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TODO!
+</code></pre></div></div>
+
+<h2 id="generating-gifs-from-multiple-files">Generating gifs from multiple files</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Requirements:
+# pip install pdf2image gif
+
+import gif
+from pdf2image import convert_from_path
+
+frames = []
+for step in range(1, 11):
+    # load pdf files
+    frame = convert_from_path(f'file_{step}.pdf')[0]
+    frames.append(frame)
+
+gif.save(frames, "test.gif", duration=1000)
+</code></pre></div></div>
+
+<h2 id="some-remarks-about-matplotlib">Some remarks about matplotlib</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">plt.gca()</code> returns the current active axis, which is useful for executing axes’ commands.</li>
+</ul>
+
+  </article>
 
   
-
 
 </div>
 
