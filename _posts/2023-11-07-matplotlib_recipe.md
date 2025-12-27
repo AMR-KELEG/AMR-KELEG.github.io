@@ -2,7 +2,7 @@
 layout: post
 title: A recipe for matplotlib figures
 date: 2023-11-07
-description: How I make my figures fancier 😌
+description: How I make my figures fancier 😌  (Last updated - December 2025)
 ---
 
 ## General Setup
@@ -23,18 +23,27 @@ matplotlib.rc("font", **font)
 matplotlib.rcParams["axes.spines.left"] = True
 matplotlib.rcParams["axes.spines.right"] = False
 matplotlib.rcParams["axes.spines.top"] = False
-matplotlib.rcParams["axes.spines.bottom"] = False
+matplotlib.rcParams["axes.spines.bottom"] = True
 
 # Allow using tex in labels and titles
 # Note: This requires the system to have some tex dependencies installed
 matplotlib.rcParams["text.latex.preamble"] = [r"\boldmath"]
 ```
 
-## Figure Size
+## Figure Size
 
+I am so far mostly submitting to *CL conferences and their accompanying workshops, which tend to follow the style templates: https://github.com/acl-org/acl-style-files
+
+For this style, the \textwidth is equivalent to `6.30045 inches`. For a two-column figure, you need to set the width to ~ 6.3 (the default unit for matplotlib is inch). For a single-column figure, it should be half the text width.
 ```
-TODO
+# For a two-column figure
+plt.figure(figsize=(6.3, SET_SUITABLE_HEIGHT))
+
+# For a single-column figure
+plt.figure(figsize=(6.3/2, SET_SUITABLE_HEIGHT))
 ```
+
+The benefit you will get is that you will not need to rescale the figure in LaTeX, which implies that the font sizes of the different labels will not be affected.
 
 ## Legend
 I generally prefer frameless legends, setting the following flag `frameon=False`.
@@ -84,7 +93,7 @@ TODO!
 TODO!
 ```
 
-## Generating fig from multiple files
+## Generating gifs from multiple files
 
 ```
 # Requirements:
